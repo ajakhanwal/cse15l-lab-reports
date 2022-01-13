@@ -3,7 +3,7 @@
    - Once downloaded, open the VSCode window
    - It should look something like this
    
-   ![image](https://user-images.githubusercontent.com/97641897/149424191-04211fcc-a722-4a60-8928-b410a5230094.png)
+      ![image](https://user-images.githubusercontent.com/97641897/149424347-a3918030-49b1-4ea8-bcbb-5cacd6e48a77.png)
 
 
 
