@@ -10,9 +10,9 @@
     - Open a terminal in VSCode and input the command $ ssh cs15lwi22zz@ieng6.ucsd.edu with zz replaced with the letters in course specific account. 
     - It will then show you a message confirming if you wish to continue connecting. 
     - After saying yes, it will ask for your password. 
-    - After all the steps it will look like this 
+    - After all the steps it will look like this in the terminal
 
-        ![image](https://user-images.githubusercontent.com/97641897/149425937-f1266518-0e91-4c79-99ae-e10ce7579651.png)
+        ![image](https://user-images.githubusercontent.com/97641897/149426038-a5de1d38-6fcf-4554-bd13-2a83fba76172.png)
 
 
 
