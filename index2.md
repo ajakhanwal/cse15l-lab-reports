@@ -1,4 +1,4 @@
 This is exciting!!
-*List1
-*List2
-*List3
+1.One
+2.Two
+3.Three
