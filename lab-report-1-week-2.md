@@ -22,6 +22,20 @@
       ![image](https://user-images.githubusercontent.com/97641897/149426825-fc7f8023-2d88-4e12-8c97-db3a56e02c23.png)
 
 4. Moving files with scp
-     - 
+    - Create a file WhereAmI.java on your computer and run it on the terminal using javac and java
+    - Next, run this command scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/ on the terminal
+    - When prompted for password, enter the same password
+    - This copies the file from the client to the server
+    - Now log into your remote server using ssh and then run the same commands in the terminal
+    - The output of the whole process is shown below
+
+      ![image](https://user-images.githubusercontent.com/97641897/149428043-66a3c22d-aad5-4cfc-8668-1809b1848e8d.png)
+      
+5. Setting an SSH Key
+
+
+![image](https://user-images.githubusercontent.com/97641897/149431993-01c50847-77f8-4e1f-b04b-3b4e029314d6.png)
+
+
 
 
