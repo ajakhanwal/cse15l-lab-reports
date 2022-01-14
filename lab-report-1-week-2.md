@@ -41,7 +41,10 @@
    ![image](https://user-images.githubusercontent.com/97641897/149431993-01c50847-77f8-4e1f-b04b-3b4e029314d6.png)
    
 6. Optimizing remote running
-    - 
+    - We can combine all of the commands into one on both the local machine and the server as such:
+    - scp WhereAmI.java cs15lwi22ain@ieng6.ucsd.edu:~/; ssh cs15lwi22ain@ieng6.ucsd.edu "javac WhereAmI.java && java WhereAmI"
+    
+    
 
 
 
