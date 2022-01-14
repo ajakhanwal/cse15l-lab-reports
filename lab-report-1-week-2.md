@@ -32,9 +32,16 @@
       ![image](https://user-images.githubusercontent.com/97641897/149428043-66a3c22d-aad5-4cfc-8668-1809b1848e8d.png)
       
 5. Setting an SSH Key
+    - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation using instructions from here set up the SSH key
+    - Then copy the public key file to the directory of user account on server
+    - Do this by following commands
+    - $ ssh cs15lwi22zz@ieng6.ucsd.edu and $ scp /Users/username/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:C:\Users\username/.ssh/authorized_keys 
+    - After this you will be able to use ssh and scp commands without being asked for password.
 
-
-![image](https://user-images.githubusercontent.com/97641897/149431993-01c50847-77f8-4e1f-b04b-3b4e029314d6.png)
+   ![image](https://user-images.githubusercontent.com/97641897/149431993-01c50847-77f8-4e1f-b04b-3b4e029314d6.png)
+   
+6. Optimizing remote running
+    - 
 
 
 
