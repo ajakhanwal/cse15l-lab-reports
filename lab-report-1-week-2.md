@@ -39,6 +39,7 @@
     - After this you will be able to use ssh and scp commands without being asked for password.
 
    ![image](https://user-images.githubusercontent.com/97641897/149431993-01c50847-77f8-4e1f-b04b-3b4e029314d6.png)
+   ![image](https://user-images.githubusercontent.com/97641897/149600016-62e3911a-f5f2-446c-b05e-902693af1645.png)
    
 6. Optimizing remote running
     - We can combine all of the commands into one on both the local machine and the server as such:
