@@ -35,17 +35,18 @@
     - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation using instructions from here set up the SSH key
     - Then copy the public key file to the directory of user account on server
     - Do this by following commands
-    - $ ssh cs15lwi22zz@ieng6.ucsd.edu and $ scp /Users/username/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:C:\Users\username/.ssh/authorized_keys 
+    - $ ssh cs15lwi22zz@ieng6.ucsd.edu and $ scp /Users/anieA/.ssh/id_ed25519.pub cs15lwi22ain@ieng6.ucsd.edu:C:\Users\anieA/.ssh/authorized_keys 
     - After this you will be able to use ssh and scp commands without being asked for password.
 
    ![image](https://user-images.githubusercontent.com/97641897/149431993-01c50847-77f8-4e1f-b04b-3b4e029314d6.png)
-    ![image](https://user-images.githubusercontent.com/97641897/149600016-62e3911a-f5f2-446c-b05e-902693af1645.png)
+       ![image](https://user-images.githubusercontent.com/97641897/149600016-62e3911a-f5f2-446c-b05e-902693af1645.png)
    
 6. Optimizing remote running
-    - We can combine all of the commands into one on both the local machine and the server as such:
+    - We can combine all of the commands into one on both the local machine and the server by typing the command:
     - scp WhereAmI.java cs15lwi22ain@ieng6.ucsd.edu:~/; ssh cs15lwi22ain@ieng6.ucsd.edu "javac WhereAmI.java && java WhereAmI"
     
-    
+      ![image](https://user-images.githubusercontent.com/97641897/149600927-3e9e7285-d372-4f05-a7eb-0d7f88f7d4aa.png)
+
 
 
 
