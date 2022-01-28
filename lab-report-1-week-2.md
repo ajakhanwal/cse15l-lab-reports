@@ -4,7 +4,7 @@
    - It will look something like this
 ![image](https://user-images.githubusercontent.com/97641897/149424347-a3918030-49b1-4ea8-bcbb-5cacd6e48a77.png)
    
-## 2. Remotely Connecting :
+# 2. Remotely Connecting :
 - Install OpenSSH for Windows laptop using the link : [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 - Open a terminal in VSCode and input the command $ `ssh cs15lwi22zz@ieng6.ucsd.edu` with zz replaced with the letters in UCSD CSE 15L course specific account which can be found here : [link](https://sdacs.ucsd.edu/~icc/index.php)
 - It will then show you a message confirming if you wish to continue connecting. 
