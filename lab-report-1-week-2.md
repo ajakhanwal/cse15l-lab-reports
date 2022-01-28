@@ -41,7 +41,7 @@
        ![image](https://user-images.githubusercontent.com/97641897/149600016-62e3911a-f5f2-446c-b05e-902693af1645.png)
    
 # 6. Optimizing remote running
-- We can combine all of the commands into one on both the local machine and the server by typing the command : $`scp WhereAmI.java cs15lwi22ain@ieng6.ucsd.edu:~/; ssh cs15lwi22ain@ieng6.ucsd.edu "javac WhereAmI.java && java WhereAmI"`
+- We can combine all of the commands into one on both the local machine and the server by typing the command :$ `scp WhereAmI.java cs15lwi22ain@ieng6.ucsd.edu:~/; ssh cs15lwi22ain@ieng6.ucsd.edu "javac WhereAmI.java && java WhereAmI"`
 - Number of keystrokes this command took : 73(up arrow + 72 keys)
 - But after this command if we need to run the command again after an edit, it will onlt take 2 keystrokes(up arrow and enter)
 - The commands after running it once and using only two keystrokes took me about 3 seconds 
