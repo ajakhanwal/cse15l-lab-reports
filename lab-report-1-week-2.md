@@ -1,13 +1,13 @@
 1. Setting up Visual Studio Code:
-   - I already had VSCode installed from previous classes but if need be, it can be downloaded from : [Link]https://code.visualstudio.com/ for Windows or OSX(Mac)
+   - I already had VSCode installed from previous classes but if need be, it can be downloaded from : [Link](https://code.visualstudio.com/) for Windows or OSX(Mac)
    - Once downloaded, open the VSCode window
    - It will look something like this
    
       ![image](https://user-images.githubusercontent.com/97641897/149424347-a3918030-49b1-4ea8-bcbb-5cacd6e48a77.png)
  
  2. Remotely Connecting :
-    - Install OpenSSH for Windows laptop
-    - Open a terminal in VSCode and input the command $ ssh cs15lwi22zz@ieng6.ucsd.edu with zz replaced with the letters in course specific account. 
+    - Install OpenSSH for Windows laptop using the link : [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+    - Open a terminal in VSCode and input the command $ ssh cs15lwi22zz@ieng6.ucsd.edu with zz replaced with the letters in UCSD CSE 15L course specific account which can be found here : [link](https://sdacs.ucsd.edu/~icc/index.php)
     - It will then show you a message confirming if you wish to continue connecting. 
     - After saying yes, it will ask for your password. 
     - After all the steps it will look like this in the terminal
@@ -32,7 +32,7 @@
       ![image](https://user-images.githubusercontent.com/97641897/149428043-66a3c22d-aad5-4cfc-8668-1809b1848e8d.png)
       
 5. Setting an SSH Key
-    - [Link]https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation using instructions from here set up the SSH key
+    - [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) using instructions from here set up the SSH key
     - Then copy the public key file to the directory of user account on server
     - Do this by following commands
     - $ ssh cs15lwi22zz@ieng6.ucsd.edu and $ scp /Users/anieA/.ssh/id_ed25519.pub cs15lwi22ain@ieng6.ucsd.edu:C:\Users\anieA/.ssh/authorized_keys 
