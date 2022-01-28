@@ -1,4 +1,4 @@
-#1. Setting up Visual Studio Code:
+1. #Setting up Visual Studio Code:
    - I already had VSCode installed from previous classes but if need be, it can be downloaded from : [Link](https://code.visualstudio.com/) for Windows or OSX(Mac)
    - Once downloaded, open the VSCode window
    - It will look something like this
