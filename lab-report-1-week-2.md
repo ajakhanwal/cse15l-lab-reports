@@ -1,5 +1,5 @@
 1. Setting up Visual Studio Code:
-   - I already had VSCode installed from previous classes but if need be, it can be downloaded from : https://code.visualstudio.com/ for Windows or OSX(Mac)
+   - I already had VSCode installed from previous classes but if need be, it can be downloaded from : [Link]https://code.visualstudio.com/ for Windows or OSX(Mac)
    - Once downloaded, open the VSCode window
    - It will look something like this
    
@@ -32,7 +32,7 @@
       ![image](https://user-images.githubusercontent.com/97641897/149428043-66a3c22d-aad5-4cfc-8668-1809b1848e8d.png)
       
 5. Setting an SSH Key
-    - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation using instructions from here set up the SSH key
+    - [Link]https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation using instructions from here set up the SSH key
     - Then copy the public key file to the directory of user account on server
     - Do this by following commands
     - $ ssh cs15lwi22zz@ieng6.ucsd.edu and $ scp /Users/anieA/.ssh/id_ed25519.pub cs15lwi22ain@ieng6.ucsd.edu:C:\Users\anieA/.ssh/authorized_keys 
