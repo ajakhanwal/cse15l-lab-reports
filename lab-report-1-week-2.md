@@ -12,14 +12,14 @@
     - After saying yes, it will ask for your password. 
     - After all the steps it will look like this in the terminal
 
-        ![image](https://user-images.githubusercontent.com/97641897/149426038-a5de1d38-6fcf-4554-bd13-2a83fba76172.png)
+  ![image](https://user-images.githubusercontent.com/97641897/149426038-a5de1d38-6fcf-4554-bd13-2a83fba76172.png)
 
 # 3. Trying some commands : 
     - type some commands in terminal to test on remote server 
     - Examples of few to try : `cd`, `ls`, `ls-lat`, `ls-a`
     - Output of `ls -a` and `ls -a` on my terminal shown below
     
-      ![image](https://user-images.githubusercontent.com/97641897/149426825-fc7f8023-2d88-4e12-8c97-db3a56e02c23.png)
+   ![image](https://user-images.githubusercontent.com/97641897/149426825-fc7f8023-2d88-4e12-8c97-db3a56e02c23.png)
 
 # 4. Moving files with scp
     - Create a file WhereAmI.java on your computer and run it on the terminal using javac and java
@@ -29,7 +29,7 @@
     - Now log into your remote server using ssh and then run the same commands in the terminal
     - The output of the whole process is shown below
 
-      ![image](https://user-images.githubusercontent.com/97641897/149428043-66a3c22d-aad5-4cfc-8668-1809b1848e8d.png)
+   ![image](https://user-images.githubusercontent.com/97641897/149428043-66a3c22d-aad5-4cfc-8668-1809b1848e8d.png)
       
 # 5. Setting an SSH Key
     - [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) using instructions from here set up the SSH key
@@ -44,8 +44,12 @@
 # 6. Optimizing remote running
     - We can combine all of the commands into one on both the local machine and the server by typing the command:
     - `scp WhereAmI.java cs15lwi22ain@ieng6.ucsd.edu:~/; ssh cs15lwi22ain@ieng6.ucsd.edu "javac WhereAmI.java && java WhereAmI"`
+    - Number of keystrokes this command took : 73(up arrow + 72 keys)
+    - But after this command if we need to run the command again after an edit, it will onlt take 2 keystrokes(up arrow and enter)
+    - The commands after running it once and using only two keystrokes took me about 3 seconds 
+    - This saved me around 15 seconds
     
-      ![image](https://user-images.githubusercontent.com/97641897/149600927-3e9e7285-d372-4f05-a7eb-0d7f88f7d4aa.png)
+   ![image](https://user-images.githubusercontent.com/97641897/149600927-3e9e7285-d372-4f05-a7eb-0d7f88f7d4aa.png)
 
 
 
