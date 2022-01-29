@@ -29,7 +29,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 * Symptom of the failure-inducing input in the command line: [\]
 
-*The test file has escape characters and paranthesis inside the the brackets which causes a symptom that prints the wrong output. The bug in the code is such that it fails to check if the current character is escape and that it fails to take into consideration possible paranthesis inside the brackets. 
+* The test file has escape characters and paranthesis inside the the brackets which causes a symptom that prints the wrong output containing whats inside the paranthesis after the ] bracket inside the outer brackets. The bug in the code is such that it fails to check if the current character is escape and that it fails to take into consideration possible paranthesis and closing bracket inside the opening and closing brackets. 
 
 # Code Change 3 :
 
