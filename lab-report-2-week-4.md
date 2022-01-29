@@ -27,9 +27,9 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 * Link to the test file for a failure inducing input that prompted a change in the code : [link](https://github.com/ajakhanwal/markdown-parse/blob/a79bf2696baf65e357170e38c513c5af509c2646/Group-test-file3.md)
 
-* Symptom of the failure-inducing input in the command line: [\]
+* Symptom of the failure-inducing input in the command line from code: [\]
 
-* The test file has escape characters and paranthesis inside the the brackets which causes a symptom that prints the wrong output containing whats inside the paranthesis after the ] bracket inside the outer brackets. The bug in the code is such that it fails to check if the current character is escape and that it fails to take into consideration possible paranthesis and closing bracket inside the opening and closing brackets. 
+* The test file has escape characters and paranthesis inside the the brackets which causes a symptom that prints the wrong output containing whats inside the paranthesis after the ] bracket inside the outer brackets. The bug in the code( edited for the first test file) is such that it fails to check if the current character is escape and that it fails to take into consideration possible paranthesis and closing bracket inside the opening and closing brackets. 
 
 # Code Change 3 :
 
