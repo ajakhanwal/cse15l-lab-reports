@@ -42,11 +42,11 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 * Link to the test file for a failure inducing input that prompted a change in the code : [link](https://github.com/ajakhanwal/markdown-parse/blob/60ad5f2b2ce0150af235f735b21f8d0a3ebe84fc/Group-test-file4.md)
 
 * Symptom of the failure-inducing input in the command line:
-Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-        at java.base/java.util.Arrays.copyOfRange(Arrays.java:3822)
-        at java.base/java.lang.StringLatin1.newString(StringLatin1.java:769)
-        at java.base/java.lang.String.substring(String.java:2709)
-        at MarkdownParseOrg.getLinks(MarkdownParseOrg.java:17)
-        at MarkdownParseOrg.main(MarkdownParseOrg.java:25)
+        Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+                at java.base/java.util.Arrays.copyOfRange(Arrays.java:3822)
+                at java.base/java.lang.StringLatin1.newString(StringLatin1.java:769)
+                at java.base/java.lang.String.substring(String.java:2709)
+                at MarkdownParseOrg.getLinks(MarkdownParseOrg.java:17)
+                at MarkdownParseOrg.main(MarkdownParseOrg.java:25)
 
 * The input has one link plus another set of brackets followed by a closing paranthesis and few escape characters and so on. This causes a symptom in the original Markdown-parse file as it has bugs which do not check for what happens if the there is something else after brackets and that does not check for escape characters.
