@@ -49,5 +49,14 @@
   4) Answering Questions about possible code change
   - Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change : Yes, I believe adding a if check statement after line 24 would solve the bug. By checking at if curr is equal to a backstick we can just escape move our currentIndex to the next character by incrementing it by one and then adding a cotinue statment. 
   
-  - Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change : 
+  
+  - Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change : Yes, I believe if we add another equals statement on Line 36 we could fix the bug. We can check if the character after the curr is not another closed bracket. We add a `&&` in the if statement such that if the next character is a closed bracket it will continue until the last closed bracket is found. 
+
+
+  - Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change : 
+
+
+
+  
+  
 
