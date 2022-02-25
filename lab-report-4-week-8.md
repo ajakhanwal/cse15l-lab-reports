@@ -13,7 +13,7 @@
    ![image](https://user-images.githubusercontent.com/97641897/155630042-6aab69c4-ac5b-4a74-bc29-344ab9709878.png)
 
     - For the reviewed implementation, the corresponding output :
-    ![image](https://user-images.githubusercontent.com/97641897/155631968-5894d61f-fbdd-4ddc-8b92-bdcaeab02a7b.png)
+   ![image](https://user-images.githubusercontent.com/97641897/155631968-5894d61f-fbdd-4ddc-8b92-bdcaeab02a7b.png)
 
     
    2) Test Snippet 2 :
