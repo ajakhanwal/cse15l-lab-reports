@@ -44,4 +44,10 @@
 
    - For the reviewed implementation, the corresponding output :
   ![image](https://user-images.githubusercontent.com/97641897/155632062-91dda4a8-b219-483c-9b60-e8e02a821aed.png)
+  
+  
+  4) Answering Questions about possible code change
+  - Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change : Yes, I believe adding a if check statement after line 24 would solve the bug. By checking at if curr is equal to a backstick we can just escape move our currentIndex to the next character by incrementing it by one and then adding a cotinue statment. 
+  
+  - Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change : 
 
