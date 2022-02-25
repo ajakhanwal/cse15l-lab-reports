@@ -13,6 +13,8 @@
    ![image](https://user-images.githubusercontent.com/97641897/155630042-6aab69c4-ac5b-4a74-bc29-344ab9709878.png)
 
     - For the reviewed implementation, the corresponding output :
+    ![image](https://user-images.githubusercontent.com/97641897/155631968-5894d61f-fbdd-4ddc-8b92-bdcaeab02a7b.png)
+
     
    2) Test Snippet 2 :
    - Excpected output using Vs Code Preview :
@@ -26,6 +28,8 @@
    ![image](https://user-images.githubusercontent.com/97641897/155630560-6a6f6a50-fbea-48be-88e4-8c113cf3e9ab.png)
 
    - For the reviewed implementation, the corresponding output :
+   ![image](https://user-images.githubusercontent.com/97641897/155632012-a0e00af8-e35b-457a-8e13-ec58171151b5.png)
+
 
    3) Test Snippet 3 : 
    - Excpected output using Vs Code Preview :
@@ -39,4 +43,5 @@
    ![image](https://user-images.githubusercontent.com/97641897/155631165-637524ad-77bb-4537-8dd8-8d5c9401785b.png)
 
    - For the reviewed implementation, the corresponding output :
-  
+  ![image](https://user-images.githubusercontent.com/97641897/155632062-91dda4a8-b219-483c-9b60-e8e02a821aed.png)
+
