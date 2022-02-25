@@ -1,5 +1,5 @@
-  - Link to my Markdown repository : https://github.com/ajakhanwal/markdown-parse
-  - Link to the repository reviewed : https://github.com/floatboat/markdown-parse
+  - Link to my Markdown repository : [Link](https://github.com/ajakhanwal/markdown-parse)
+  - Link to the repository reviewed : [Link](https://github.com/floatboat/markdown-parse)
   
   1) Test Snippet 1 :
   - Excpected output using Vs Code Preview :
